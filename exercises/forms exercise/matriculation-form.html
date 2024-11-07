@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriculación</title>
+
+    <style>
+        div{
+            border: 1px solid black;
+            justify-content: center;
+            content: center;
+            padding: 50px;
+        }
+        h1{
+            text-align: center;
+        }
+         span{
+            border: 1px solid black;
+            padding: 5px;
+
+        }
+         .navigator{
+            width: 100%;
+
+        }
+         .td_nav1{
+            border: 0px solid black;
+            text-align: center;
+            padding: auto ;
+        }
+    </style>
+</head>
+
+<body>
+    <nav><a href="http://127.0.01:5500/exercises/forms%20exercise/information-text.html">Volver a Inicio</a></nav>
+    <br />
+    <h1>MATRÍCULA CURSO 2024-2025</h1>
+    <div>
+    <form>
+        <h2>DATOS DEL ALUMNO</h2>
+        <br>
+        <label for="user_name">Introduce tu nombre: </label><input type="text" placeholder="Introduce tu nombre"
+            name="user_name" />
+        <br />
+        <br>
+        <label for="user_surnames">Introduce tus apellidos: </label><input type="text"
+            placeholder="Introduce tus apellidos" name="user_surnames" />
+        <br />
+        <br>
+        <label for="user_dni">Introduce tu DNI: </label>
+        <input type="text" name="user_dni">
+        <br>
+        <br>
+        <label for="user_birthdate">Selecciona tu fecha de nacimiento: </label>
+        <input type="date" name="user_birthdate">
+        <br>
+        <br>
+        <label for="user_province">¿De qué provincia eres?</label><br><br>
+        <select name="user_province">
+            <option value="1">A Coruña</option>
+            <option value="2">Lugo</option>
+            <option value="3">Ourense</option>
+            <option value="4">Pontevedra</option>
+        </select>
+        <br />
+        <br>
+        <label for="user_status">¿Cuál es tu formación previa?</label>
+        <br>
+        <br>
+        <input type="radio" name="user_status" value="1" />Grado universitario
+        <input type="radio" name="user_status" value="2" />Máster en áreas relacionadas con la economía
+        <input type="radio" name="user_status" value="3" />Experiencia laboral en agencias 
+        <br />
+        <br>
+    
+        <h2>DATOS DE CONTACTO</h2>
+        <br>
+        <label for="user_email">Introduce tu email: </label><input type="email" placeholder="Introduce tu email"
+            name="user_email" />
+        <br>
+        <br>
+        <label for="user_telf">Introduce tu número de telefono: </label><input type="tel" placeholder="Introduce tu teléfono"
+            name="user_telf" />
+        <br>
+        <br>
+        <button type="reset">Cancelar</button>
+        <button type="submit">Enviar</button>
+    </form>
+    </div>
+    <br>
+    <div style="text-align: center;">
+    <label for="user_conoc">¿Cómo nos has conocido? </label>
+    <br>
+    <br>
+    <input type="checkbox" name="user_conoc" value="a" />A través del campus virtual
+    <input type="checkbox" name="user_conoc" value="b" />A través de un docente
+    <input type="checkbox" name="user_conoc" value="c" />A través de un amigo
+    <br>
+    <br>
+    <button type="reset">Cancelar</button>
+    <button type="submit">Enviar</button>
+    </div>
+    <br>
+    <table class="navigator">
+        <tbody>
+            <tr>
+                <td class="td_nav1">
+                    <nav class="link_prof"><a
+                            href="http://127.0.0.1:5500/exercises/forms%20exercise/information-table.html"><span>Nuestros profesores</span></a>
+                    </nav>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+</body>
+
+</html>
