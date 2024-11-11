@@ -1,0 +1,32 @@
+*{
+    border: 1px solid black;
+}
+h1{
+    color: red;
+}
+#header{
+    color: blue;
+}
+.img{
+    margin: 5%;
+    padding: 5px;
+    width: 50px;
+}
+img.img{
+    padding: 50px;
+}
+p.img{
+    
+}
+/* ol > li a{
+    todos los hijos directos de ol, en este caso li, que tenga dentro un a;
+}
+li a{
+    todos los elementos a que estén dentro de elementos li;
+}
+h1 + p{
+    solo afecta a un p que este justo despues de un h1 y al mismo nivel;
+} */
+h2, li{
+    border: 2px dashed red;
+}
