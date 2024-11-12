@@ -1,0 +1,33 @@
+.div {
+    width: 250px;
+    border: 1px solid black;
+}
+.child{
+    background-color: green;
+}
+
+#container {
+    padding: 15px;
+    background-color: chocolate;
+    color: white;
+    
+}
+#target{
+    /* position: absolute; */
+    /* position: static; */
+    /* position: fixed; OJO BARRA DE INICIO */
+    /* right: -15px;*/
+    /*z-index: 1;*/
+    display: none;
+}
+
+/* FLOTACIÓN */
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+.clear{
+    clear: both;
+}
