@@ -1,17 +1,63 @@
-header, ul{
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, nav, footer{
+   padding: 10px;
+   text-align: center;
+   color: white;
+   background-color: #C8AE7E; 
+   
+}
+ul{
     display: flex;
-    align-items: flex-start;
     justify-content: center;
-    flex-direction: row;
     gap: 15px;
     background-color: #C8AE7E;
-    color: white;
+    color: #C8AE7E;
 }
-
-.id{
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+#favoritos{
+    background-color: #fafdf3;
+}
+#hombres{
+    background-color:   #f5f5dd;
+}
+#mujeres{
+    background-color: #eae3c9;
+}
+#ninos{
+    background-color: #d2bd96;
+}
+section{
     display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+}
+.product{
+    border: 1px solid black;
+    background-color: white;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-items: center;
+    align-items: center;
+    gap: 15px;
+
+}
+img{
+    width: 100%;  
+    padding: 5px; 
+}
+h2, p{
+    
+   
+  
 }
