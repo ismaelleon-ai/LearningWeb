@@ -1,0 +1,17 @@
+header, ul{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+    background-color: #C8AE7E;
+    color: white;
+}
+
+.id{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
