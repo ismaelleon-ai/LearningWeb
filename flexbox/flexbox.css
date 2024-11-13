@@ -1,0 +1,17 @@
+.container{
+    margin: 5px;
+    padding: 5px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap;
+    justify-content: space-evenly; */
+    /* align-items: flex-end; */
+    gap: 15px 45px;
+    align-items: flex-start;
+}
+.child{
+    border: 1px dashed black;
+    width: 200px;
+}
