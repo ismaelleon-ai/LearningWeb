@@ -2,15 +2,14 @@ header, nav, footer{
    padding: 1px;
    text-align: center;
    color: white;
-   background-color: #C8AE7E; 
-   
+   background-color: #C8AE7E
 }
 ul{
     display: flex;
     justify-content: center;
     gap: 15px;
-    background-color: #C8AE7E;
     color: #C8AE7E;
+    text-decoration: none;
 }
 a:link, a:visited{
     color: white;
@@ -47,8 +46,7 @@ h2{
     gap: 15px;
     padding: 5px;
     margin: 5px;
-    width: 160px;
-
+    width: 180px;
 }
 img{
     width: 100%;  
